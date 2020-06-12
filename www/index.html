@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="lib/codigo.js"></script>
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+
+</head>
+<body>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <label style="font-size:30px; margin-left:60px;">Forme a Palavra</label>
+          </div>
+          <div class="col-12">
+            <img src="arma.png" style="margin-left:20px;">
+          </div>
+          <div class="col-12">
+            <div class="texto" id = "texto" style="font-size:50px; margin-left:80px;"></div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary but" style="margin-left:70px;margin-top:70px;" onclick="Checar(this)" id="btn">B</button>
+            <button class="btn btn-primary but"  style="margin-top:70px;" onclick="Checar(this)" id="btn">A</button>
+            <button class="btn btn-primary but" style="margin-top:70px;" onclick="Checar(this)" id="btn">D</button>
+            <button class="btn btn-primary but" style="margin-top:70px;" onclick="Checar(this)" id="btn">J</button>
+            <button class="btn btn-primary but" style="margin-top:70px;" onclick="Checar(this)" id="btn">R</button>
+            <button class="btn btn-primary but" style="margin-top:70px;" onclick="Checar(this)" id="btn">M</button>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" style="margin-left:110px;margin-top:10px;" onclick="Checar(this)" id="btn">K</button>
+            <button class="btn btn-primary but" style="margin-top:10px;" onclick="Checar(this)" id="btn">N</button>
+            <button class="btn btn-primary but" style="margin-top:10px;" onclick="Checar(this)" id="btn">V</button>
+            <button class="btn btn-primary but" style="margin-top:10px;" onclick="Checar(this)" id="btn">Q</button>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-warning" style="margin-left:110px;margin-top:10px;" onclick="Final()">Resposta</button>
+            <button class="btn btn-secondary" onclick="Reset()" style="margin-top:10px;">Reset</button>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
